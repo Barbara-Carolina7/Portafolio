@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Portafolio Personal",
+    "description": "Sitio web personal desarrollado en React con diseño responsivo y pruebas unitarias.",
+    "technologies": ["React", "Bootstrap", "Vite"],
+    "image": "/images/portfolio.png",
+    "link": "https://barbara-carolina7.github.io/Portafolio"
+  },
+  {
+    "id": 2,
+    "title": "Gestión de Inventario",
+    "description": "Aplicación web para el control de inventarios y productos.",
+    "technologies": ["JavaScript", "Node.js", "Express"],
+    "image": "/images/inventory.png",
+    "link": "https://github.com/Barbara-Carolina7/Gestion-Inventario"
+  },
+  {
+    "id": 3,
+    "title": "Carrito de Compras",
+    "description": "Módulo de carrito de compras para tienda en línea.",
+    "technologies": ["React", "Context API"],
+    "image": "/images/cart.png",
+    "link": "https://github.com/Barbara-Carolina7/Carrito"
+  }
+]
