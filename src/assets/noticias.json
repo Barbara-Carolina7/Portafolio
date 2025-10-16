@@ -1,0 +1,15 @@
+[
+  {
+    "titulo": "Nuevo Proyecto React",
+    "descripcion": "Desarrollé una aplicación con componentes reutilizables y diseño responsive."
+  },
+  {
+    "titulo": "Colaboración en equipo",
+    "descripcion": "Trabajé junto a otros desarrolladores para crear un sistema de gestión eficiente."
+  },
+  {
+    "titulo": "Mejoras de UI",
+    "descripcion": "Optimizaciones visuales aplicando Bootstrap y CSS personalizado."
+  }
+]
+

@@ -1,25 +1,28 @@
-import React from "react";
-import news from "../data/news.json"; // Importa tus noticias desde JSON
+import React, { useEffect, useState } from 'react'
+import noticiasData from '../data/noticias.json'
 
-function NewsList() {
+export default function NewsList(){
+  const [noticias, setNoticias] = useState([])
+
+  useEffect(() => {
+    // simulamos carga dinámica desde JSON (se importa arriba)
+    setNoticias(noticiasData)
+  }, [])
+
   return (
-    <div className="container my-5">
-      <h2 className="text-center mb-4">Últimas Noticias</h2>
-      <div className="row">
-        {news.map((item) => (
-          <div className="col-md-4 mb-3" key={item.id}>
-            <div className="card h-100 shadow-sm">
-              <div className="card-body">
-                <h5 className="card-title">{item.title}</h5>
-                <h6 className="card-subtitle mb-2 text-muted">{item.date}</h6>
-                <p className="card-text">{item.content}</p>
-              </div>
+    <div id="news" className="mt-4">
+      <h3 className="mb-3">Noticias</h3>
+      <div className="row g-3">
+        {noticias.map(n => (
+          <div className="col-md-6" key={n.id}>
+            <div className="card card-custom p-3">
+              <div style={{fontSize:14, color:'#7a4b64', fontWeight:600}}>{n.title}</div>
+              <div style={{fontSize:12,color:'#9b6b80',marginBottom:8}}>{n.date}</div>
+              <div style={{fontSize:14}}>{n.summary}</div>
             </div>
           </div>
         ))}
       </div>
     </div>
-  );
+  )
 }
-
-export default NewsList;

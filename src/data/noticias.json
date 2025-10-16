@@ -1,0 +1,18 @@
+
+[
+  {
+    "titulo": "Nuevo proyecto publicado",
+    "fecha": "2025-10-10",
+    "contenido": "He finalizado mi portafolio personal en React, aplicando Bootstrap y pruebas unitarias con Jasmine y Karma."
+  },
+  {
+    "titulo": "Avance en Desarrollo Fullstack II",
+    "fecha": "2025-09-25",
+    "contenido": "Durante el módulo he aprendido a integrar React con control de versiones en GitHub y despliegue en GitHub Pages."
+  },
+  {
+    "titulo": "Actualización del repositorio",
+    "fecha": "2025-08-30",
+    "contenido": "He agregado nuevas funcionalidades y optimizado la carga de imágenes en mis proyectos anteriores."
+  }
+]
